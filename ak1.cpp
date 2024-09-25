@@ -12,8 +12,8 @@ int main(){
 	}
 	
 	data.erase("Hello");
-	if (auto iter = data.find("test"); iter != data.end()){ //if with initialization
-		std::cout<<"Found the key"<< iter->first << "with the value" << iter->second <<"\n";
+	if (auto iter = data.find("alblak"); iter != data.end()){ //if with initialization
+		std::cout<<"Found the key "<< iter->first << " with the value " << iter->second <<"\n";
 	}
 	else{
 		std::cout<<"not found\n";
